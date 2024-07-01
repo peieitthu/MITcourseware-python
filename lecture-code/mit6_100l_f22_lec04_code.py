@@ -142,15 +142,15 @@
 # secret value. If it's not found, prints that it didn't find it. 
 
 # your code here  
-found = False 
-secret = 4
-for i in range(1,11):
-    if i == secret:     
-        found = True
-if not found:
-    print('not found')
-else:
-    print('found')
+# found = False 
+# secret = 4
+# for i in range(1,11):
+#     if i == secret:     
+#         found = True
+# if not found:
+#     print('not found')
+# else:
+#     print('found')
 ####################################################
 
 ####################
@@ -218,11 +218,11 @@ else:
 ###################
 # EXAMPLE: floating point
 ################### 
-# x = 0
-# for i in range(10):
-#     x += 0.1
-# print(x == 1)
-# print(x, 'is the same as?', 10*0.1)
+x = 0
+for i in range(10):
+    x += 0.1
+print(x == 1)
+print(x, 'is the same as?', 10*0.1)
 
 
 ###################

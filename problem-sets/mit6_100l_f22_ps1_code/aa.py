@@ -1,5 +1,5 @@
-aa=65000
-for i in range(3):
-    aa=1.380615234375*aa
-
-print(aa)
+i=22
+j=7
+k=0.0
+k=i/j
+print(k)
